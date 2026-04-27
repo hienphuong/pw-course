@@ -1,0 +1,57 @@
+a. Tạo 3 file: file1, file2, file3
+local: file1, file2, file3
+working directory:
+staging 
+repositoty
+
+b. git init 
+local: 
+working directory: file1, file2, file3
+staging 
+repositoty
+
+c. git commit -m "init project"
+local: 
+working directory: file1, file2, file3
+staging 
+repositoty
+
+d. git add file1
+local: 
+working directory:file1,file2, file3
+staging : file1
+repositoty
+
+e. git commit -m "add file"
+local: 
+working directory:file1,file2, file3
+staging : 
+repositoty:
+    commit "add file"(file1)
+
+f. git add .
+local: 
+working directory: file1,file2, file3
+staging : file1,file2, file3
+repositoty:
+    commit "add file"(file1)
+g. git restore --staged file2
+local: 
+working directory: file1,file2, file3
+staging : file1, file3
+repositoty:
+    commit "add file"(file1)
+h. git commit -m "add all files"
+local: 
+working directory: file1,file2, file3
+staging : file1, file3
+repositoty:
+    commit "add file"(file1)
+    commit "add all files" (file1, file3)
+i. git reset HEAD~1    
+local: 
+working directory: file1,file2, file3
+staging : file1, file3
+repositoty:
+    commit "add file"(file1)
+   

@@ -1,0 +1,30 @@
+a. git init
+Local:
+Working directory: 
+Staging:
+Repository:
+
+b. file1.txt, file2.txt, oops/file3.txt
+Local: file1.txt, file2.txt, oops/file3.txt
+Working directory: file1.txt, file2.txt, oops/file3.txt
+Staging:
+Repository:
+
+c. file .gitignore (file1.txt oops/)
+Local: file1.txt, file2.txt, oops/file3.txt, .gitignore
+Working directory: file1.txt, file2.txt, oops/file3.txt, .gitignore
+Staging:
+Repository:
+
+d. git add .
+Local: file1.txt, file2.txt, oops/file3.txt, .gitignore
+Working directory: file1.txt, file2.txt, oops/file3.txt, .gitignore
+Staging: file2.txt, .gitignore
+Repository:
+
+e. git commit -m "init project"
+Local: file1.txt, file2.txt, oops/file3.txt, .gitignore
+Working directory: file1.txt, file2.txt, oops/file3.txt, .gitignore
+Staging: 
+Repository:
+    commit "init project" (file2.txt, .gitignore)

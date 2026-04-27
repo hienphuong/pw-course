@@ -1,0 +1,4 @@
+commit --amend sửa commit gần nhất
+commit --amend -m "sửa comment"sửa message commit
+restore --staged test.spec.ts bỏ file khỏi staging
+reset HEAD~1 bỏ commit gần nhất, đưa các file về unstaged
