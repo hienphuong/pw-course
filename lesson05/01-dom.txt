@@ -1,0 +1,8 @@
+Một thẻ DOM gồm: opening tag (tag name + attributes) ,
+content (text/child elements) ,
+ closing tag và mỗi phần được biểu diễn trong DOM dưới dạng element node, 
+ attribute nodes, text node.
+
+ Một bảng HTML gồm: <table> (bảng) → <thead> (header) +
+  <tbody> (body) + <tfoot> (footer) → trong đó có <tr> (hàng) 
+  → chứa <th> (ô tiêu đề) hoặc <td> (ô dữ liệu).
